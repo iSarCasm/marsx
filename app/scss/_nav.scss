@@ -1,0 +1,32 @@
+nav {
+  font-family: $font1;
+  text-transform: uppercase;
+
+  ul {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 0;
+    list-style: none;
+    li {
+      display: inline-block;
+      margin: 5px 15px;
+      padding: 5px 10px;
+      a {
+        font-weight: 600;
+        color: white;
+        transition: all .2s;
+      }
+
+      &.active {
+        border-bottom: 2px solid orange;
+      }
+
+      &:hover, &:active, &:focus {
+        a {
+          color: darken(orange, 10);
+        }
+      }
+    }
+  }
+}

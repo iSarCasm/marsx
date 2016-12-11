@@ -1,0 +1,23 @@
+{
+  "name": "MarsX",
+  "description": "",
+  "main": "",
+  "authors": [
+    "SarCasm <sarcasm008@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "normalize-css": "^5.0.0",
+    "foundation-sites": "^6.2.4",
+    "orbit": "*"
+  }
+}

@@ -1,0 +1,22 @@
+.orbit-bullets li {
+    background: #CCCCCC;
+    cursor: pointer;
+    display: inline-block;
+    float: none;
+    height: 0.5rem;
+    margin-right: 6px;
+    width: 0.5rem;
+    border-radius: 1000px;
+
+    &.active {
+      background: #999999;
+    }
+}
+
+div.slider-nav span.right, div.slider-nav span.left {
+  margin-top: -20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 90px;
+}
