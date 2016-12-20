@@ -290,6 +290,20 @@ footer {
     .news__footer .right {
       float: right; }
 
+.image-block {
+  margin-bottom: 40px;
+  margin-left: 15px;
+  margin-right: 15px; }
+  .image-block h2 {
+    font-size: 24px;
+    font-family: "BankGothic", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .image-block .row {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px; }
+
 .orbit-bullets li {
   background: #CCCCCC;
   cursor: pointer;
