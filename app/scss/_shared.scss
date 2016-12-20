@@ -1,0 +1,137 @@
+.full-width {
+  width: 100%;
+}
+
+body {
+  background-color: #111;
+  color: white;
+}
+
+section {
+  margin-top: 40px;
+}
+
+p {
+  font-size: 14px;
+  font-family: $font6;
+}
+
+.box {
+  cursor: help;
+  border-bottom: 1px dashed white;
+}
+
+img {
+  max-width: 100%;
+  &.small {
+    margin: 15px 0;
+    width: 50%;
+  }
+}
+
+table {
+  margin-top: 10px;
+  width: 90%;
+  margin-left: 5%;
+  font-family: $font4;
+  background-color: transparent;
+  tbody {
+    border: 1px solid transparentize(#44f, 0.7);
+    background-color: transparent;
+
+    tr {
+      // cursor: pointer;
+      transition: all .1s;
+      &:nth-child(even) {
+        background-color: transparentize(#44f, 0.95);
+        &:hover {
+          background-color: transparentize(#44f, 0.92);
+        }
+      }
+
+      &:nth-child(odd) {
+        background-color: transparentize(#44f, 0.9);
+        &:hover {
+          background-color: transparentize(#44f, 0.87);
+        }
+      }
+    }
+
+  }
+  td, tr {
+    background-color: transparent;
+  }
+
+  &.last-right {
+    td:last-of-type {
+      text-align: right;
+    }
+  }
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.body {
+  margin-top: 40px;
+}
+
+#maintitle {
+  display: inline-block;
+  font-family: $font4;
+  font-size: 142px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 12px;
+  position: relative;
+  opacity: 0.25;
+  transition: all 2s ease;
+
+  &:after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-51%, 0);
+  }
+
+  &.wide {
+    opacity: 1;
+    letter-spacing: 72px;
+    &:after {
+      left: 45%;
+      width: 100%;
+    }
+  }
+}
+
+.title {
+  margin: 0;
+  font-size: 72px;
+  font-family: $font3;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  margin: 0;
+  margin-top: -20px;
+  display: block;
+  font-family: $font5;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+.minititle {
+  display: block;
+  font-family: $font5;
+  font-size: 18px;
+}

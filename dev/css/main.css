@@ -1,46 +1,3 @@
-nav {
-  font-family: "Lato", sans-serif;
-  text-transform: uppercase; }
-  nav ul {
-    width: 100%;
-    text-align: center;
-    margin: 10px 0 0 0;
-    padding: 0;
-    list-style: none; }
-    nav ul li {
-      display: inline-block;
-      margin: 5px 15px;
-      padding: 5px 10px; }
-      nav ul li a {
-        font-weight: 600;
-        color: white;
-        -webkit-transition: all .2s;
-        -moz-transition: all .2s;
-        transition: all .2s; }
-      nav ul li.active {
-        border-bottom: 2px solid orange; }
-      nav ul li:hover a, nav ul li:active a, nav ul li:focus a {
-        color: #cc8400; }
-
-.orbit-bullets li {
-  background: #CCCCCC;
-  cursor: pointer;
-  display: inline-block;
-  float: none;
-  height: 0.5rem;
-  margin-right: 6px;
-  width: 0.5rem;
-  border-radius: 1000px; }
-  .orbit-bullets li.active {
-    background: #999999; }
-
-div.slider-nav span.right, div.slider-nav span.left {
-  margin-top: -20px;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  width: 40px;
-  height: 90px; }
-
 @font-face {
   font-family: 'BankGothic';
   src: url("../fonts/ufonts.com_bank-gothic-medium.ttf");
@@ -48,12 +5,6 @@ div.slider-nav span.right, div.slider-nav span.left {
   /* Safari, Android, iOS */
   font-weight: normal;
   font-style: normal; }
-
-.parallax-window {
-  min-height: 300px;
-  background: transparent; }
-  .parallax-window.low {
-    min-height: 200px; }
 
 .full-width {
   width: 100%; }
@@ -104,13 +55,6 @@ table {
     background-color: transparent; }
   table.last-right td:last-of-type {
     text-align: right; }
-
-.logo {
-  position: absolute;
-  margin: 5px 10px;
-  font-family: "BankGothic", sans-serif;
-  color: white;
-  font-size: 32px; }
 
 .responsive-image {
   max-width: 100%; }
@@ -171,6 +115,82 @@ table {
   display: block;
   font-family: "Play", sans-serif;
   font-size: 18px; }
+
+nav {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase; }
+  nav ul {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 0;
+    list-style: none; }
+    nav ul li {
+      display: inline-block;
+      margin: 5px 15px;
+      padding: 5px 10px; }
+      nav ul li a {
+        font-weight: 600;
+        color: white;
+        -webkit-transition: all .2s;
+        -moz-transition: all .2s;
+        transition: all .2s; }
+      nav ul li.active {
+        border-bottom: 2px solid orange; }
+      nav ul li:hover a, nav ul li:active a, nav ul li:focus a {
+        color: #cc8400; }
+
+footer {
+  margin-top: 150px;
+  text-align: center;
+  background-color: #000; }
+  footer .top {
+    background-image: url("../img/footer.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    position: relative; }
+    footer .top:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 300%;
+      background-image: -webkit-linear-gradient(top, transparent 70%, #000 100%);
+      background-image: -moz-linear-gradient(top, transparent 70%, #000 100%);
+      background-image: linear-gradient(to bottom, transparent 70%, #000 100%);
+      background-repeat: repeat-x;
+      background-repeat-x: repeat;
+      background-repeat-y: no-repeat;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#FF000000', GradientType=0);
+      z-index: 1; }
+  footer .row {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    footer .row .logo {
+      position: relative; }
+    footer .row ul {
+      list-style: none;
+      text-align: left; }
+      footer .row ul a {
+        color: white; }
+        footer .row ul a:hover {
+          text-decoration: underline; }
+
+.parallax-window {
+  min-height: 300px;
+  background: transparent; }
+  .parallax-window.low {
+    min-height: 200px; }
+
+.logo {
+  position: absolute;
+  margin: 5px 10px;
+  font-family: "BankGothic", sans-serif;
+  color: white;
+  font-size: 32px; }
 
 .mars-image {
   max-width: 80%; }
@@ -239,43 +259,23 @@ table {
     .moons .mars-info.reverse .content {
       margin-top: 0px; }
 
-footer {
-  margin-top: 150px;
-  text-align: center;
-  background-color: #000; }
-  footer .top {
-    background-image: url("../img/footer.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 120px;
-    position: relative; }
-    footer .top:after {
-      content: '';
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      height: 300%;
-      background-image: -webkit-linear-gradient(top, transparent 70%, #000 100%);
-      background-image: -moz-linear-gradient(top, transparent 70%, #000 100%);
-      background-image: linear-gradient(to bottom, transparent 70%, #000 100%);
-      background-repeat: repeat-x;
-      background-repeat-x: repeat;
-      background-repeat-y: no-repeat;
-      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#FF000000', GradientType=0);
-      z-index: 1; }
-  footer .row {
-    padding-top: 20px;
-    padding-bottom: 20px; }
-    footer .row .logo {
-      position: relative; }
-    footer .row ul {
-      list-style: none;
-      text-align: left; }
-      footer .row ul a {
-        color: white; }
-        footer .row ul a:hover {
-          text-decoration: underline; }
+.orbit-bullets li {
+  background: #CCCCCC;
+  cursor: pointer;
+  display: inline-block;
+  float: none;
+  height: 0.5rem;
+  margin-right: 6px;
+  width: 0.5rem;
+  border-radius: 1000px; }
+  .orbit-bullets li.active {
+    background: #999999; }
+
+div.slider-nav span.right, div.slider-nav span.left {
+  margin-top: -20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 90px; }
 
 /*# sourceMappingURL=main.css.map */

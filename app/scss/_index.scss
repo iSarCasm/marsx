@@ -1,0 +1,108 @@
+.parallax-window {
+    min-height: 300px;
+    background: transparent;
+    &.low {
+      min-height: 200px;
+    }
+}
+
+.logo {
+  position: absolute;
+  margin: 5px 10px;
+  font-family: $font3;
+  color: white;
+  font-size: 32px;
+}
+
+.mars-image {
+  max-width: 80%;
+}
+
+.mars-info {
+  margin-top: 40px;
+  position: relative;
+  &.reverse {
+    margin-top: 10px;
+    img {
+      margin-top: 90px;
+      position: absolute;
+      right: 0;
+    }
+  }
+  .content {
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: $font4;
+
+    &.reverse {
+      position: relative;
+      left: 0;
+      right: auto;
+      text-align: left;
+    }
+
+    ul {
+      width: 320px;
+      display: inline-block;
+      padding: 0;
+      margin-right: 0;
+      margin-left: auto;
+      list-style: none;
+
+      &.small {
+        width: 240px;
+      }
+      &.wide {
+        width: 440px;
+      }
+      &.verywide { width: 620px; }
+
+      li {
+        margin-top: 5px;
+        display: block;
+        &:after {
+           visibility: hidden;
+           display: block;
+           font-size: 0;
+           content: " ";
+           clear: both;
+           height: 0;
+        }
+      }
+    }
+
+    .point {
+      display: block;
+      float: left;
+      text-transform: uppercase;
+      margin-right: 20px;
+      &.small {
+        text-transform: lowercase;
+      }
+    }
+
+    .value {
+      display: block;
+      float: right;
+      text-align: right;
+    }
+  }
+}
+
+.moons {
+  .mars-info {
+    margin-top: 0px;
+    .content {
+      margin-top: 120px;
+    }
+
+    &.reverse {
+      text-align: right;
+      .content {
+        margin-top: 0px;
+      }
+    }
+  }
+}
