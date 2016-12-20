@@ -1,0 +1,17 @@
+.news {
+  border: 1px solid white;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+
+  h2 { margin-top: 10px; }
+  img { width: 100%; }
+  p { height: 150px; }
+
+  &__footer {
+    font-style: italic;
+    font-size: 0.9rem;
+    .left { float: left; }
+    .right { float: right; }
+  }
+}

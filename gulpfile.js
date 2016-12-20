@@ -30,7 +30,7 @@ var Settings = {
   ],
 
   RELOAD: [
-    destination + 'index.html'
+    destination + '*.html'
   ],
 
   HTML: {

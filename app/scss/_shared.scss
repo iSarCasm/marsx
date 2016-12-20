@@ -135,3 +135,19 @@ table {
   font-family: $font5;
   font-size: 18px;
 }
+
+.columns .nopadding { padding: 0 0 0 0 }
+
+.pagination {
+  .current {
+    padding: 0;
+    background-color: darken(#2199e8, 10);
+  }
+
+  a {
+    color: white;
+    &:hover {
+      background-color: darken(#2199e8, 30);
+    }
+  }
+}
