@@ -19,6 +19,8 @@ section {
 p {
   font-size: 14px;
   font-family: "Roboto", sans-serif; }
+  p.big {
+    font-size: 16px; }
 
 .box {
   cursor: help;
@@ -153,7 +155,7 @@ nav {
         color: #cc8400; }
 
 footer {
-  margin-top: 150px;
+  margin-top: 100px;
   text-align: center;
   background-color: #000; }
   footer .top {
