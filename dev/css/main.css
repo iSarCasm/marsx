@@ -62,7 +62,7 @@ table {
 .center {
   text-align: center; }
 
-.body {
+.body, main {
   margin-top: 40px; }
 
 #maintitle {
