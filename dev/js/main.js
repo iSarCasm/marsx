@@ -30,6 +30,7 @@ $(document).ready(function() {
 
 		return false;
 	});
+
 });
 
 $('#responsive').orbit({bullets: true, fluid: true});

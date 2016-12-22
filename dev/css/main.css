@@ -275,15 +275,18 @@ footer {
 
 .news {
   border: 1px solid white;
+  height: 252px;
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px; }
   .news h2 {
     margin-top: 10px; }
   .news img {
-    width: 100%; }
+    min-width: 100%;
+    height: 250px;
+    background-size: cover; }
   .news p {
-    height: 150px; }
+    height: 140px; }
   .news__footer {
     font-style: italic;
     font-size: 0.9rem; }

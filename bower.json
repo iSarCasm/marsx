@@ -19,6 +19,7 @@
     "normalize-css": "^5.0.0",
     "foundation-sites": "^6.2.4",
     "orbit": "*",
-    "fancybox": "^2.1.5"
+    "fancybox": "^2.1.5",
+    "jquery-coverrr": "*"
   }
 }
