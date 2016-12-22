@@ -306,6 +306,8 @@ footer {
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px; }
+  .image-block img {
+    border: 2px solid white; }
 
 .orbit-bullets li {
   background: #CCCCCC;
