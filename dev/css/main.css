@@ -130,6 +130,21 @@ table {
   .pagination a:hover {
     background-color: #0b4165; }
 
+.language-toggle {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  color: white;
+  font-family: "BankGothic", sans-serif;
+  font-size: 17px; }
+  .language-toggle a {
+    color: #777;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease; }
+    .language-toggle a:hover {
+      color: white; }
+
 nav {
   font-family: "Lato", sans-serif;
   text-transform: uppercase; }

@@ -154,3 +154,19 @@ table {
     }
   }
 }
+
+.language-toggle {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  color: white;
+  font-family: $font3;
+  font-size: 17px;
+  a {
+    color: #777;
+    transition: all .3s ease;
+    &:hover {
+      color: white;
+    }
+  }
+}
