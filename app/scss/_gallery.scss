@@ -1,5 +1,6 @@
 .image-block {
   margin-bottom: 40px;
+  line-height: 0.9em;
   h2 {
     font-size: 24px;
     font-family: $font5;
@@ -12,4 +13,6 @@
     margin-right: 10px;
   }
   img { border: 2px solid white; }
+  a { color: white; }
+  small { font-size: 12px;}
 }

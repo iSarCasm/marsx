@@ -297,6 +297,7 @@ footer {
 
 .image-block {
   margin-bottom: 40px;
+  line-height: 0.9em;
   margin-left: 15px;
   margin-right: 15px; }
   .image-block h2 {
@@ -308,6 +309,10 @@ footer {
     margin-right: 10px; }
   .image-block img {
     border: 2px solid white; }
+  .image-block a {
+    color: white; }
+  .image-block small {
+    font-size: 12px; }
 
 .orbit-bullets li {
   background: #CCCCCC;
